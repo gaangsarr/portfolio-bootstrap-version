@@ -1,0 +1,96 @@
+/* fonts */
+:root {
+  --warna1: #201e43;
+  --warna2: #134b70;
+  --warna3: #508c9b;
+  --warna4: #eeeeee;
+  --warnahover: #06262e;
+}
+
+/* properti */
+.btn-primary {
+  background-color: #201e43 !important;
+  border-color: #201e43 !important;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary:hover {
+  background-color: #134b70 !important;
+  border-color: #134b70 !important;
+  color: rgb(255, 255, 255) !important;
+  font-weight: medium !important;
+}
+
+.font-poppins {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.font-archivo {
+  font-family: "Archivo", sans-serif !important;
+}
+
+/* Navbar */
+.active {
+  color: var(--warna1) !important;
+}
+
+.nav-link:hover {
+  color: var(--warna1) !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wave-header {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  align-content: center;
+}
+
+.svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.about {
+  padding-top: 4rem !important;
+}
+
+.project {
+  background-color: #fff !important;
+}
+
+.blog-card {
+  border: none !important;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.7) !important;
+  border-radius: 20px !important;
+
+  .card-title {
+    font-weight: bold;
+  }
+  .card-text {
+    color: white;
+  }
+}
+.project-card {
+  border: none !important;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.7) !important;
+  border-radius: 20px !important;
+  min-height: 100% !important;
+
+  .card-title {
+    font-weight: bold;
+  }
+  .card-text {
+    color: white;
+  }
+}
